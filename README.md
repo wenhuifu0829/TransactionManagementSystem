@@ -92,7 +92,8 @@ Maven 3.6 或更高版本
    应用信息: http://localhost:8080/actuator/info
 
    性能指标: http://localhost:8080/actuator/metrics
-   📖 API 文档
+   
+📖 API 文档
    基础URL
    所有API端点都以 /api/transactions 为前缀
 
