@@ -72,8 +72,6 @@ Maven 3.6 或更高版本
 3. 运行应用程序
    # 运行打包后的JAR文件
    java -jar target/transaction-management-0.0.1-SNAPSHOT.jar
-   # 或使用Maven直接运行
-   mvn spring-boot:run
 4. 访问应用
    应用启动后，可以通过以下方式访问：
 
