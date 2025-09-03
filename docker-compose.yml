@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  transaction-app:
+    build:
+      context: .  # 使用当前目录作为构建上下文
+      dockerfile: Dockerfile  # Dockerfile的文件名
+    image: transaction-management:latest  # 构建后的镜像名称
+    container_name: transaction-management-app  # 容器名称
+    ports:
+      - "8080:8080"  # 主机端口:容器端口
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker  # 可以设置一个docker专用的profile
+    # 如果需要数据持久化，可以挂载卷（可选）
+    # volumes:
+    #   - ./data:/app/data  # 将主机上的data目录挂载到容器内
+    restart: unless-stopped  # 容器退出时自动重启（除非手动停止）
+
