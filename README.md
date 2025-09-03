@@ -1,23 +1,6 @@
 Transaction Management System
 一个基于 Spring Boot 的银行交易管理系统，提供完整的交易 CRUD 操作、数据持久化、缓存优化和 RESTful API。
 
-🌟 功能特性
-交易管理: 创建、查看、更新、删除金融交易记录
-
-数据持久化: 使用 H2 文件数据库，重启应用数据不丢失
-
-RESTful API: 提供完整的 API 接口，支持各种查询操作
-
-数据验证: 全面的输入验证和异常处理
-
-缓存优化: 使用 Caffeine 缓存提升性能
-
-分页查询: 支持大数据集的分页显示
-
-Web 界面: 简洁的 Web 界面便于操作
-
-监控端点: 集成 Spring Boot Actuator 用于应用监控
-
 📦 项目结构
 ```plaintext
 transaction-management/
@@ -55,6 +38,23 @@ Caffeine: 缓存实现
 Maven: 项目构建工具
 
 Spring Boot Actuator: 应用监控
+
+🌟 功能特性
+交易管理: 创建、查看、更新、删除金融交易记录
+
+数据持久化: 使用 H2 文件数据库，重启应用数据不丢失
+
+RESTful API: 提供完整的 API 接口，支持各种查询操作
+
+数据验证: 全面的输入验证和异常处理
+
+缓存优化: 使用 Caffeine 缓存提升性能
+
+分页查询: 支持大数据集的分页显示
+
+Web 界面: 简洁的 Web 界面便于操作
+
+监控端点: 集成 Spring Boot Actuator 用于应用监控
 
 🚀 快速开始
 前提条件
