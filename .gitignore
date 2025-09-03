@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### maven ###
+.mvn/
+
+
+# H2 Database files
+data/

@@ -1,2 +1,8 @@
 /mvnw text eol=lf
 *.cmd text eol=crlf
+# 强制所有文本文件使用UTF-8编码
+*.properties text working-tree-encoding=UTF-8
+*.java text working-tree-encoding=UTF-8
+*.md text working-tree-encoding=UTF-8
+*.txt text working-tree-encoding=UTF-8
+*.xml text working-tree-encoding=UTF-8
