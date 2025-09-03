@@ -18,21 +18,6 @@ Web 界面: 简洁的 Web 界面便于操作
 
 监控端点: 集成 Spring Boot Actuator 用于应用监控
 
-🛠️ 技术栈
-Java 17: 编程语言
-
-Spring Boot 3.2.x: Web 框架
-
-Spring Data JPA: 数据持久层
-
-H2 Database: 嵌入式数据库
-
-Caffeine: 缓存实现
-
-Maven: 项目构建工具
-
-Spring Boot Actuator: 应用监控
-
 📦 项目结构
 transaction-management/
 ├── src/
@@ -55,6 +40,22 @@ transaction-management/
 ├── data/ # H2数据库文件(自动生成)
 ├── pom.xml # Maven配置
 └── README.md # 项目说明
+
+🛠️ 技术栈
+Java 17: 编程语言
+
+Spring Boot 3.2.x: Web 框架
+
+Spring Data JPA: 数据持久层
+
+H2 Database: 嵌入式数据库
+
+Caffeine: 缓存实现
+
+Maven: 项目构建工具
+
+Spring Boot Actuator: 应用监控
+
 
 🚀 快速开始
 前提条件
