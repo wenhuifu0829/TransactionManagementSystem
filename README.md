@@ -34,6 +34,7 @@ Maven: 项目构建工具
 Spring Boot Actuator: 应用监控
 
 📦 项目结构
+
 transaction-management/
 ├── src/
 │ ├── main/
